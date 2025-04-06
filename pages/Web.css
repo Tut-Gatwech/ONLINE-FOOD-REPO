@@ -1,0 +1,147 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: bisque;
+}
+
+header {
+    .srch{
+        float:right;
+        background:rgb(224, 194, 194);
+        width:200px;
+        height: 40px;
+        font-size: 20px;    
+    }
+    background: #ff6347;
+    background-image: url("image/food.png" );
+    background-size:100%;
+    background-position:50% 70%;
+ background-repeat:no-repeat;
+ padding:20px;
+ height:400px;
+    color: rgba(70, 5, 248, 0.726);
+    
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 10px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+   
+}
+
+nav a {
+    background:linear-gradient(to top,rgba(233, 224, 224, 0.8)50%,rgba(250, 240, 240, 0.8)50%);
+    border-radius: 10px;
+    color:blue;
+    text-decoration: none;
+    font-size: 20px;
+}
+nav a:hover{
+    background:#333;
+    color:#ff7200;
+}
+
+section {
+    padding: 20px;
+}
+ #home{
+    background: #ff6347;
+}
+
+.food-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px 0;
+    background-image: url("image/pizza.png");
+    background-size: 80%;
+    background-position: 50% 70%;
+}
+.food-burger {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px 0;
+    color:white;
+    background-image: url("image/case4.jpg");
+    background-size: 100%;}
+    .food-pasta {
+        border: 1px solid #ccc;
+        padding: 10px;
+        margin: 10px 0;
+        color:rgb(7, 10, 0);
+        background-image: url("image/pasta.png");
+        background-size: 100%;
+        
+        background-position: 50% 70%;
+    }
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #333;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+h1{
+    
+    color:blue;
+}
+#contacts{
+    background-color: #ff6347;
+}
+.form{
+    width:200px;
+    height:300px;
+    background:linear-gradient(to top,rgb(0, 0,0,0.8)50%,rgb(0, 0,0,0.8)50%);
+    position:absolute;
+    
+    bottom:-30px;
+    right:7px ;
+    
+    border-radius: 10px;
+    padding: 25px;}
+    .form h2{
+        width:200px;
+        font-family:sans-serif;
+        text-aligh:center;
+        color:#ff7200;
+        font-size: 22px;
+        background-color: white;
+        border-radius: 10px;
+        margin: 2px;
+        padding: 8px;
+    }
+    .form input{
+        width:200px;
+        height:35px;
+        background: transparent;
+        border-bottom:1px solid #ff7200;
+        border-top:none;
+         border-right: none;
+         border-left: none;
+         color:white;
+    }
+    .bnt{
+        width:200px;
+        height:40px;
+        background-color: #ff7200;
+        border:none;
+        margin-top: 30px;
+        font-size: 18px;
+        border-radius: 10px;
+    }
+    .bnt:hover{
+        background:#fff;
+        color:#ff7200;
+    }
+
+   
